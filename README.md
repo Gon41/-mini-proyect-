@@ -1,20 +1,18 @@
-# -mini-proyect-
+# -minigame-     Guess a number game
 
 
-He elegido el juego de Adivina un número.
+The game consists in guessing the number randomly proposed by the computer between 0 and 20.
 
-El juego consiste en adivinar el número que propone aleatoriamente el ordenador entre el 0 y 20.
+(using the random.randit function)
 
-(mediante la función random.randit)
+I have chosen a random number with random.randit with a range from 0 to 20.
 
-He elegido un número aleatorio con random.randit con un rango de 0 a 20.
+For the player I have made a loop with a counter that goes up to 5 (which are the attempts that the player has to guess the number). If the player has not managed to guess the number in 5 attempts the game ends by printing an end message.
 
-Para el jugador he hecho un bucle con un contador que llegue hasta 5 (que son los intentos que tiene el jugador para conseguir adivinar el número). Si el jugador no ha conseguido adivinar el número en 5 intentos se acaba el juego imprimiendo un mensaje de fin.
+Each number chosen by the player is stored in a sorted list so that the player always knows the numbers chosen.
 
-Cada número que ha elegido el jugador se guarda en una lista ordenada para saber en todo momento los número elegidos.
+The machine game works in the same way, but I have not been able to get it to choose the number "rationally" to win.
 
-El juego de la máquina funciona del mismo modo, pero no he conseguido que elija el número de forma "racional" para ganar
-
-Al final del archivo hay una comparación (entre los contadores del jugador y la máquina) para ver quién ha tardado más en elegir el número.
+At the end of the file there is a comparison (between the counters of the player and the machine) to see who has taken longer to choose the number.
 
 
