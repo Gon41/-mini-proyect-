@@ -3,7 +3,7 @@
 
 The game consists in guessing the number randomly proposed by the computer between 0 and 20.
 
-(using the random.randit function)
+
 
 I have chosen a random number with random.randit with a range from 0 to 20.
 
