@@ -1,5 +1,6 @@
-# -minigame-     Guess a number game
+# -Minigame- Guess a number game
 
+![](https://www.parentingspecialneeds.org/wp-content/uploads/2016/11/Guess-the-Winning-Number.jpg)
 
 The game consists in guessing the number randomly proposed by the computer between 0 and 20.
 
